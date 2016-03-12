@@ -1,0 +1,15 @@
+# config
+logo: /images/svdb.png
+keywords: "jia huang, node.js, javascript, golang, scala, development"
+menu:
+  Writings: /articles
+  Talks: /talks
+  Projects: /projects
+  About: /about
+
+# Content
+excerpt_link: Read more
+
+# Miscellaneous
+rss: /atom.xml
+google_analytics:
