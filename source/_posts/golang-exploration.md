@@ -1,5 +1,6 @@
 ---
 title: Exploration in golang
+date: 2016-01-24 00:19:09
 ---
 
 At work I've been using a lot of Scala. Since I've made the switch, I've seen a lot of posts on teams moving away from Scala:
