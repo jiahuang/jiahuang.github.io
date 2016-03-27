@@ -36,8 +36,52 @@ if is_page() && page.title.toLowerCase() == 'writings'
           a(href= config.root + post.path) #{post.title}
           |  &mdash;
           time(itemprop='datePublished', datetime= post.date.toISOString())= full_date(new Date(post.date), ' MMMM Do')
+    
     if site.posts.toArray().length != 0
       | </ul>
+    //- append writings from tessel
+    h4 Writings from Tessel
+    ul
+      li(itemprop='name')
+        a(href="https://tessel.io/blog/100084265042/onboarding-with-the-samr21-mcu-on-osx-ubuntu", itemprop='url') Onboarding with the SAMR21 MCU on OSX & Ubuntu
+        |  &mdash;
+        time(itemprop='datePublished') October, 2014
+      li(itemprop='name')
+        a(href="https://tessel.io/blog/94836877892/getting-the-cc3000-working-with-javascript", itemprop='url') Getting the CC3000 working with JS
+        |  &mdash;
+        time(itemprop='datePublished') August, 2014
+      li(itemprop='name')
+        a(href="https://tessel.io/blog/95383451952/arduino-tessel-communication", itemprop='url') Ardunio <-> Tessel Communication
+        |  &mdash;
+        time(itemprop='datePublished') August, 2014
+      li(itemprop='name')
+        a(href="https://tessel.io/blog/95945850577/how-to-expose-a-c-function-up-to-js-userspace-on", itemprop='url') Exposing a C function up to JS userspace on Tessel
+        |  &mdash;
+        time(itemprop='datePublished') August, 2014
+      li(itemprop='name')
+        a(href="https://tessel.io/blog/85632183767/testing-tessel-with-testalator", itemprop='url') Testing Tessel with Testalator
+        |  &mdash;
+        time(itemprop='datePublished') May, 2014
+      li(itemprop='name')
+        a(href="https://tessel.io/blog/82193726811/tessel-progression", itemprop='url') Tessel Progression
+        |  &mdash;
+        time(itemprop='datePublished') April, 2014
+      li(itemprop='name')
+        a(href="https://tessel.io/blog/73618767099/costs-benefits-of-beta-testing", itemprop='url') Costs and Benefits of Beta Testing
+        |  &mdash;
+        time(itemprop='datePublished') January, 2014
+      li(itemprop='name')
+        a(href="https://tessel.io/blog/71868894308/testing-hardware", itemprop='url') Testing Hardware
+        |  &mdash;
+        time(itemprop='datePublished') January, 2014
+      li(itemprop='name')
+        a(href="https://tessel.io/blog/66107571478/the-making-of-an-ambient-sensor", itemprop='url') The Making of an Ambient Sensor
+        |  &mdash;
+        time(itemprop='datePublished') Nov, 2014  
+      li(itemprop='name')
+        a(href="https://tessel.io/blog/66686276686/reverse-engineering-lpcs-device-firmware-upgrade", itemprop='url') Reverse Engineering LPC’s Device Firmware Upgrade
+        |  &mdash;
+        time(itemprop='datePublished') Nov, 2013 
   include _comments
 else if is_page()
   article.full
