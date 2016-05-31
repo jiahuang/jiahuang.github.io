@@ -3,6 +3,10 @@ title: Projects
 date: 2016-03-11 21:13:36
 ---
 
+<h4><a href="https://github.com/jiahuang/exif-viewer">Interactive EXIF spec</a></h4><span class="date post-meta">May, 2016</span>
+<a href="https://github.com/jiahuang/exif-viewer"><img style="margin-top:0px; max-width: 800px;" src="https://raw.githubusercontent.com/jiahuang/exif-viewer/master/screenshot.png"></a>
+The EXIF spec is used for image metadata in JPEGs. This is an exploration in having specs that are interactive and easier to understand than a 100+ page pdf.
+
 <h4><a href="https://github.com/jiahuang/7minworkout">7 min workout</a></h4><span class="date post-meta">Jan, 2016</span>
 <a href="https://github.com/jiahuang/7minworkout"><img style="margin-top:0px" src="https://raw.githubusercontent.com/jiahuang/7minworkout/master/workout.gif"></a>
 This was supposed to help me learn Golang. Instead it ended up being an emoji library. 5/5 would look at hundreds of emojis again.
