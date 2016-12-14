@@ -3,6 +3,10 @@ title: Talks
 date: 2016-03-11 21:13:28
 ---
 
+<h4>Autodesk Forge DevCon</h4><span class="date post-meta">July, 2016</span>
+An overview of how 3D Robotics structured their systems to handle drone imagery data using Scala, CouchDB, AWS, and various monitoring tools.
+Slide deck: http://www.slideshare.net/Autodesk/building-a-drone-imagery-service
+
 <h4>Forward JS</h4><span class="date post-meta">Feb, 2015</span>
 This gives an overview of how to go about writing a driver for a chip given only a datasheet.
 Slide deck: http://www.slideshare.net/TechnicalMachine/js-gesture-sensor-driver
